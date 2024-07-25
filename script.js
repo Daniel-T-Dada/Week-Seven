@@ -31,6 +31,7 @@ story.textContent = 'I love reading books'
 let phone = document.querySelectorAll("ol li")
 phone[9].textContent = 'I use a Samsung Phone'
 phone[9].style.background = 'linear-gradient(to right, black, orange)'
+phone[9].style.height = '100px'
 
 
 //Using getelement by class name, apply style to the content in 5 and 7
@@ -52,3 +53,5 @@ cars[3].textContent = 'This is the 7th List Item'
 //Using get element by tagnmae, give a content to the fourth li
 let tree = document.getElementsByTagName('li')
 tree[3].textContent = 'There is a tree in my compound'
+
+
